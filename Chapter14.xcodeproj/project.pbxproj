@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E48F977A2A10B2DB009912CA /* SimpleForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F97792A10B2DB009912CA /* SimpleForm.swift */; };
+		E48F977D2A10B37D009912CA /* FormWithSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F977C2A10B37D009912CA /* FormWithSections.swift */; };
+		E48F977F2A10B506009912CA /* DisabledElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F977E2A10B506009912CA /* DisabledElements.swift */; };
+		E48F97812A1136FA009912CA /* StyledGroupBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F97802A1136FA009912CA /* StyledGroupBox.swift */; };
+		E48F97832A113B1C009912CA /* Exercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F97822A113B1C009912CA /* Exercises.swift */; };
 		E4C02ADB29FECE3100B8ACA9 /* Chapter14App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C02ADA29FECE3100B8ACA9 /* Chapter14App.swift */; };
 		E4C02ADD29FECE3100B8ACA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C02ADC29FECE3100B8ACA9 /* ContentView.swift */; };
 		E4C02ADF29FECE3300B8ACA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C02ADE29FECE3300B8ACA9 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E48F97792A10B2DB009912CA /* SimpleForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleForm.swift; sourceTree = "<group>"; };
+		E48F977C2A10B37D009912CA /* FormWithSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithSections.swift; sourceTree = "<group>"; };
+		E48F977E2A10B506009912CA /* DisabledElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledElements.swift; sourceTree = "<group>"; };
+		E48F97802A1136FA009912CA /* StyledGroupBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyledGroupBox.swift; sourceTree = "<group>"; };
+		E48F97822A113B1C009912CA /* Exercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercises.swift; sourceTree = "<group>"; };
 		E4C02AD729FECE3100B8ACA9 /* Chapter14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C02ADA29FECE3100B8ACA9 /* Chapter14App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter14App.swift; sourceTree = "<group>"; };
 		E4C02ADC29FECE3100B8ACA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E48F977B2A10B2ED009912CA /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				E48F97792A10B2DB009912CA /* SimpleForm.swift */,
+				E48F977C2A10B37D009912CA /* FormWithSections.swift */,
+				E48F977E2A10B506009912CA /* DisabledElements.swift */,
+				E48F97802A1136FA009912CA /* StyledGroupBox.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
 		E4C02ACE29FECE3100B8ACA9 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +74,9 @@
 			children = (
 				E4C02ADA29FECE3100B8ACA9 /* Chapter14App.swift */,
 				E4C02ADC29FECE3100B8ACA9 /* ContentView.swift */,
+				E48F97822A113B1C009912CA /* Exercises.swift */,
 				E4C02ADE29FECE3300B8ACA9 /* Assets.xcassets */,
+				E48F977B2A10B2ED009912CA /* Demos */,
 				E4C02AE029FECE3300B8ACA9 /* Preview Content */,
 			);
 			path = Chapter14;
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48F977A2A10B2DB009912CA /* SimpleForm.swift in Sources */,
+				E48F977D2A10B37D009912CA /* FormWithSections.swift in Sources */,
+				E48F97812A1136FA009912CA /* StyledGroupBox.swift in Sources */,
+				E48F97832A113B1C009912CA /* Exercises.swift in Sources */,
 				E4C02ADD29FECE3100B8ACA9 /* ContentView.swift in Sources */,
 				E4C02ADB29FECE3100B8ACA9 /* Chapter14App.swift in Sources */,
+				E48F977F2A10B506009912CA /* DisabledElements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

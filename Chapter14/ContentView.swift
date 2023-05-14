@@ -11,17 +11,31 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            Text("Item 1")
+            SimpleFormView()
                 .tabItem {
                     Image(systemName: "1.circle")
-                    Text(" ")
+                    Text("Form")
                 }
-            Text("Item 2")
+            FormWithSectionsView()
                 .tabItem {
                     Image(systemName: "2.circle")
-                    Text(" ")
+                    Text("Sections")
                 }
-            
+            DisabledFormElementsView()
+                .tabItem {
+                    Image(systemName: "3.circle")
+                    Text("Disabled elements")
+                }
+            StyledGroupBoxesView()
+                .tabItem {
+                    Image(systemName: "4.circle")
+                    Text("Styled")
+                }
+            ExercisesView()
+                .tabItem {
+                    Image(systemName: "4.square")
+                    Text("Exercises")
+                }
         }
         .padding()
     }
