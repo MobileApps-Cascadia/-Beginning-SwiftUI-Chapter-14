@@ -39,7 +39,7 @@ struct ExercisesView: View {
                     }
                 }
                 Section("Summary"){
-                    Text("Your character is a \(messageOne) named \(messageTwo) controled by \(messageThree) playing on \(flag ? "Nightmare" : "Easy")")
+                    Text("Your character is a \(messageOne) named \(messageTwo) controled by \(messageThree) playing on \(flag ? "Easy" : "Nightmare")")
                 }
  
             }
